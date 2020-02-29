@@ -1,0 +1,231 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Media | Li&#39;s Blog
+</title>
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1582953553769">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lonaparte.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lonaparte.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lonaparte.github.io">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1582953553769" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Li&#39;s Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    Main
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Archive
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    Tags
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    About
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        Media</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/shi-pin-jian-ji-yu-kdenlive-jian-ming-zhi-nan/">
+                        视频剪辑与 Kdenlive 简明指南
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-11-22</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/uCpyTlv4O/" class="post-tag i-tag
+                            i-tag-warning">
+            #Kdenlive
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/XgWeU5-ruk/" class="post-tag i-tag
+                            i-tag-error">
+            #Media
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-primary">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            最近和我就读同一所学校的高中同学找我来做一个介绍自己大学的视频，趁着这个机会，基本是零基础的我简单地学习了一下视频制作的基本技巧。我打算简单地列举一下我昨天一天做的工作，以备以后的查阅。
+Kdenlive 是 Linux 下功能最强大的视频剪辑软件，在 Windows 下也有免费开源版本。下载地址
+导入素材后，需要对素材进行处理。常用的 Timeline 处理动作有：
+
+视频分割: 快捷键 Shift + R。
+音频视频分离: 将视频拖入 Timeline 上 video 和 audio 交界的地方，右击，选择 split audio; 再右击，选择 Ungroup Clips。
+
+小到速度、音量调节，大到特效实现，Kdenlive 中所有处理都靠 Transition 和 Effect 两类动作实现。
+我试过的 Effect 主要有：
+
+Speed: 调节播放速度。设为负数则可实现倒序播放。
+Volumn: 调节音量。
+
+我试过的 Transition 主要有：
+
+Diffusion: 渐变导入下一部分。
+Wipe: 滑动进入下一部分。可以实现字幕的输入效果。
+
+另外，每个视频的开头与结尾都可以快速设置 fade 效果。做法是将鼠标悬停在 Timeline 上视频的左上角或右上角，等到变成向上指的手指时，向内拉动，即可实现视频的淡入与淡出。
+大致的视频剪辑流程是：
+
+确定主题: 确定你是想表达的主题，构思框架，寻找合适的 BGM。或根据 BGM 寻找合适的视频素材。
+视频分段: BGM 控制着视频的节奏，可以根据 BGM 的发展确定视频的播放顺序。
+视频剪辑: 对第二步进行实际操作，添加转场动画等。
+添加字幕: 将上一步完成的视频导出，再新建项目，添加字幕，重新导出。
+
+目前我的 Kdenlive 版本提示缺少 libx264 codec，因此无法导出 mp4 文件。我的解决方案是导出 AVI 文件(MPEG4-ASP/MP3)，然后用 FFmpeg 转换为 mp4 文件。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/shi-pin-jian-ji-yu-kdenlive-jian-ming-zhi-nan/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1582953553769)">
+        </div>
+        <h1 class="id_card-title">
+            Li&#39;s Blog
+        </h1>
+        <h2 class="id_card-description">
+            Skill makes an artist.
+技术是潇洒的艺术
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lonaparte.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
+</html>

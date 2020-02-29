@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Drawboard PDF 和 pdftk 的冲突问题 | Li&#39;s Blog
+</title>
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1582953553769">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lonaparte.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lonaparte.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lonaparte.github.io">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1582953553769" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Li&#39;s Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    Main
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Archive
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    Tags
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    About
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            Drawboard PDF 和 pdftk 的冲突问题
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2018-04-03</time>
+                            
+                                <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-info">
+                            #Tools
+                        </a>
+                                
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>最近发现，Surface 必备应用 Drawboard PDF 和 pdf 转换工具 pdftk 不太兼容，具体表现为：将用 Drawboard PDF 做过笔记的 pdf 用 pdftk 进行转换时会报错，错误信息如下：</p>
+<blockquote>
+<p>Unhandled Java Exception in create_output():<br>
+java.lang.ClassCastException: pdftk.com.lowagie.text.pdf.PdfString cannot be cast to pdftk.com.lowagie.text.pdf.PdfName</p>
+</blockquote>
+<p>已经尝试过的操作有：</p>
+<ul>
+<li>合并 pdf : <code>pdftk in1.pdf in2.pdf cat output out1.pdf</code></li>
+<li>旋转 pdf : <code>pdftk in.pdf cat 1-endeast output out.pdf</code></li>
+</ul>
+<p>均报错。</p>
+<p>可能的原因为：Drawboard PDF 和 pdftk 所用的 java 库版本不符，某一个软件用了版本较老的库。</p>
+<p>目前只有一个比较笨的解决方法：用 “打印成 pdf 文件” 功能（如 Windows 平台下自带的 <em>Microsoft Print to PDF</em>）将做过笔记的 pdf 处理一下，再运行 pdftk。测试结果无错。</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://lonaparte.github.io/post/zai-xie-bo-ke-zhi-qian/">
+                                <h3 class="post-title">
+                                    在写博客之前
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1582953553769)">
+        </div>
+        <h1 class="id_card-title">
+            Li&#39;s Blog
+        </h1>
+        <h2 class="id_card-description">
+            Skill makes an artist.
+技术是潇洒的艺术
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lonaparte.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

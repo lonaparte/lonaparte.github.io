@@ -1,0 +1,505 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Tools | Li&#39;s Blog
+</title>
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1582953553769">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lonaparte.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lonaparte.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lonaparte.github.io">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1582953553769" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Li&#39;s Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    Main
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Archive
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    Tags
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    About
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        Tools</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/shi-pin-jian-ji-yu-kdenlive-jian-ming-zhi-nan/">
+                        视频剪辑与 Kdenlive 简明指南
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-11-22</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/uCpyTlv4O/" class="post-tag i-tag
+                            i-tag-banana">
+            #Kdenlive
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/XgWeU5-ruk/" class="post-tag i-tag
+                            i-tag-info">
+            #Media
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            最近和我就读同一所学校的高中同学找我来做一个介绍自己大学的视频，趁着这个机会，基本是零基础的我简单地学习了一下视频制作的基本技巧。我打算简单地列举一下我昨天一天做的工作，以备以后的查阅。
+Kdenlive 是 Linux 下功能最强大的视频剪辑软件，在 Windows 下也有免费开源版本。下载地址
+导入素材后，需要对素材进行处理。常用的 Timeline 处理动作有：
+
+视频分割: 快捷键 Shift + R。
+音频视频分离: 将视频拖入 Timeline 上 video 和 audio 交界的地方，右击，选择 split audio; 再右击，选择 Ungroup Clips。
+
+小到速度、音量调节，大到特效实现，Kdenlive 中所有处理都靠 Transition 和 Effect 两类动作实现。
+我试过的 Effect 主要有：
+
+Speed: 调节播放速度。设为负数则可实现倒序播放。
+Volumn: 调节音量。
+
+我试过的 Transition 主要有：
+
+Diffusion: 渐变导入下一部分。
+Wipe: 滑动进入下一部分。可以实现字幕的输入效果。
+
+另外，每个视频的开头与结尾都可以快速设置 fade 效果。做法是将鼠标悬停在 Timeline 上视频的左上角或右上角，等到变成向上指的手指时，向内拉动，即可实现视频的淡入与淡出。
+大致的视频剪辑流程是：
+
+确定主题: 确定你是想表达的主题，构思框架，寻找合适的 BGM。或根据 BGM 寻找合适的视频素材。
+视频分段: BGM 控制着视频的节奏，可以根据 BGM 的发展确定视频的播放顺序。
+视频剪辑: 对第二步进行实际操作，添加转场动画等。
+添加字幕: 将上一步完成的视频导出，再新建项目，添加字幕，重新导出。
+
+目前我的 Kdenlive 版本提示缺少 libx264 codec，因此无法导出 mp4 文件。我的解决方案是导出 AVI 文件(MPEG4-ASP/MP3)，然后用 FFmpeg 转换为 mp4 文件。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/shi-pin-jian-ji-yu-kdenlive-jian-ming-zhi-nan/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-ke-cheng-bao-gao-mo-ban/">
+                        一份简洁的西安交大课程报告模板
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-11-08</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/cJzaOqSrP/" class="post-tag i-tag
+                            i-tag-">
+            #Templates
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/l7j34jaPO/" class="post-tag i-tag
+                            i-tag-">
+            #LaTeX
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-primary">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            LaTeX 的方便与不便之处不用多说。这是我最近写课程报告的时候用到的模板，主要改编自一个南理工的课程报告模板以及我之前在国外学习时使用的学校标准报告模板。
+本模板的特色有：
+
+可供修改的地方在文件中均用注释标出。
+将配置文件均整合进主文件中，减少了模板文件数量，提高了模板的适应性。
+在 Texlive 2017 中的 pdflatex 环境下正常编译，并无需额外的中文字体包。
+报告中代码显示环境默认灰色底色并显示行号，利于阅读。
+自定义了三个函数，便于插入图片和公式。
+自认为兼顾了专业性和美观性。
+
+下载链接请点击进入我的 GitHub 页面
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-ke-cheng-bao-gao-mo-ban/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-beamer-yan-shi-wen-gao-mo-ban/">
+                        一份简洁的西安交大 Beamer 演示文稿模板
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-10-31</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/cJzaOqSrP/" class="post-tag i-tag
+                            i-tag-other_4">
+            #Templates
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/5uBHaA7NHr/" class="post-tag i-tag
+                            i-tag-error">
+            #Beamer
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/l7j34jaPO/" class="post-tag i-tag
+                            i-tag-other_4">
+            #LaTeX
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-other_4">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            Beamer 是基于 LaTeX 的演示文稿模板，它的好处主要有以下几点：
+
+LaTeX 环境，对排版和数学公式的支持相当完善
+自带目录超链接导航功能，当演示文稿页数较多时，在不同章节之间跳转十分便捷（这个真的戳到我的爽点了）
+专业北欧冷淡风格（误），无需过多调整即可做出一份包含展示的基本信息，目录，参考文献的演示文稿，超级 professional。
+
+下载链接请点击进入我的 GitHub 页面
+用法简介稍后会在我的项目文件里详细说明。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-beamer-yan-shi-wen-gao-mo-ban/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/onenote-li-yong-kuai-jie-fang-shi-chuang-jian-shu-qian/">
+                        OneNote 利用快捷方式创建书签
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-09-30</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/L4_EbxAbk/" class="post-tag i-tag
+                            i-tag-banana">
+            #OneNote
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-warning">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            现阶段 OneNote 不支持书签功能，这点让我感觉十分不方便。自己琢磨了一下，发现可以利用快捷方式来达到创建 OneNote 书签的功能。
+首先需要获得想要添加书签的 OneNote 页面的地址。以往的教程中，直接右击页面，选择 &amp;quot;Copy link to page&amp;quot; 这一选项的方法已经不适用。这种方法复制的地址以 &amp;quot;https://onedrive.live.com&amp;quot; 开头，会利用网页版的 OneNote 打开页面。考虑到网页版的速度以及生硬的默认用户配置，我觉得这种方法并不实际。正确的方法是，随意选中一段文字，在插入超链接中选中想要添加书签的 OneNote 页面，这时会出现一个以 &amp;quot;onenote:&amp;quot; 开头的链接。复制它，创建快捷方式。OK, 搞定。
+如果你想要建立多个页面的书签，那么不妨考虑新建一个页面作为索引页，上面记下你所有书签的地址。再利用 AutoHotKey 将这个页面作为 OneNote 的起始页。OK, 完美。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/onenote-li-yong-kuai-jie-fang-shi-chuang-jian-shu-qian/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/simplis-ruan-jian-shi-yong-ru-men/">
+                        Simplis 软件使用入门
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-09-15</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/eeNWCXHU4/" class="post-tag i-tag
+                            i-tag-success">
+            #Simplis
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            SIMetrix/SIMPLIS 软件（以下简称 Simplis）是 Simplis 公司与 Simetrix 公司联合开发的电力电子电路仿真软件。与 Saber, PSpice, MATLAB 等软件相比，Simplis 软件使用了独特的算法，可以快速得出系统稳态扫频结果，因此在电力电子变换器的仿真分析和验证的过程中被广泛运用。
+Simplis 软件有着齐全的说明文档和简单的学习教程，可以快速入门。如何导入元件，搜索元件，设置仿真参数，由于本人实力和精力都有限，在此不一一说明。仅列举我在仿真 Buck 电路过程中的一些注意事项：
+
+POP Threshold 位于 0 到输入电压之间
+F8 - Maximum Period 略大于最大频率对应的周期
+Error 5039，仿真不收敛时，如果电路中有三阶 Laplace 模块，可以试着将它分解成一个一阶 Laplace 和一个二阶 Laplace 的串联，减少参数误差对病态系统的影响。这里感谢和我同姓的师兄对我的指点，解决了困扰我很久的一个仿真问题。
+
+参考文献：
+
+https://www.simplistechnologies.com/
+High-Frequency Modeling and Analyses for Buck and Multiphase Buck Converters, Qiu Yang, Virginia Tech, 2005
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/simplis-ruan-jian-shi-yong-ru-men/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/latex-xie-zuo-zhong-de-tu-pian-wen-ti/">
+                        LaTeX 写作中的图片问题
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-04-03</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/l7j34jaPO/" class="post-tag i-tag
+                            i-tag-">
+            #LaTeX
+        </a>
+                        
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-banana">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            我们写作科技论文时，碰到另一篇论文中的图片，如果直接截图，显示效果往往很差。这时有几个工具可以帮助我们提取图片：
+
+
+pdfimages：
+可以导出 pdf 文件中的所有非矢量图。用法为:
+&amp;quot;pdfimages PDF-file image-root&amp;quot;
+另外多说一句，很多文章采用的图片都是 ppm 格式，需要用一些专门的图像软件打开。如果不喜欢 PS，可以使用开源软件 Gimp。据说它在 Linux 下可以完全取代 PS，而我个人感觉它在 Windows 下也很强大。
+
+
+Inkscape / Affinity Designer / AI：
+为了导出矢量图，这里列举了几种常用的矢量图软件。事实上几乎所有的矢量图软件都支持 pdf 中提取矢量图，流程为：
+
+
+
+导入相应的 pdf 页面
+选取矢量图所在区域，组合成一个组（Group）
+导出选中部分为单独文件。
+
+如果你和我一样在 Windows 下工作，同时使用 LaTeX 和 office 的话，建议你将矢量图导出为 svg 格式。LaTeX 对于 eps 和 svg 格式的图片都支持，而 Microsoft Office 支持 svg 格式与 emf 格式。 所以如果你既要用 LaTeX 又要用 office 的话，svg 格式是最方便的。我在使用的过程中也没有发现 svg 格式有什么问题。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/latex-xie-zuo-zhong-de-tu-pian-wen-ti/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lonaparte.github.io/post/drawboard-pdf-he-pdftk-de-chong-tu-wen-ti/">
+                        Drawboard PDF 和 pdftk 的冲突问题
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-04-03</time>
+                    
+                        <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-other_4">
+            #Tools
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            最近发现，Surface 必备应用 Drawboard PDF 和 pdf 转换工具 pdftk 不太兼容，具体表现为：将用 Drawboard PDF 做过笔记的 pdf 用 pdftk 进行转换时会报错，错误信息如下：
+
+Unhandled Java Exception in create_output():
+java.lang.ClassCastException: pdftk.com.lowagie.text.pdf.PdfString cannot be cast to pdftk.com.lowagie.text.pdf.PdfName
+
+已经尝试过的操作有：
+
+合并 pdf : pdftk in1.pdf in2.pdf cat output out1.pdf
+旋转 pdf : pdftk in.pdf cat 1-endeast output out.pdf
+
+均报错。
+可能的原因为：Drawboard PDF 和 pdftk 所用的 java 库版本不符，某一个软件用了版本较老的库。
+目前只有一个比较笨的解决方法：用 “打印成 pdf 文件” 功能（如 Windows 平台下自带的 Microsoft Print to PDF）将做过笔记的 pdf 处理一下，再运行 pdftk。测试结果无错。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lonaparte.github.io/post/drawboard-pdf-he-pdftk-de-chong-tu-wen-ti/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1582953553769)">
+        </div>
+        <h1 class="id_card-title">
+            Li&#39;s Blog
+        </h1>
+        <h2 class="id_card-description">
+            Skill makes an artist.
+技术是潇洒的艺术
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lonaparte.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    OneNote 利用快捷方式创建书签 | Li&#39;s Blog
+</title>
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1582953553769">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lonaparte.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lonaparte.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lonaparte.github.io">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1582953553769" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Li&#39;s Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    Main
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Archive
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    Tags
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    About
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            OneNote 利用快捷方式创建书签
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2018-09-30</time>
+                            
+                                <a href="https://lonaparte.github.io/tag/L4_EbxAbk/" class="post-tag i-tag
+                            i-tag-">
+                            #OneNote
+                        </a>
+                                
+                                <a href="https://lonaparte.github.io/tag/YdiaAS4aK/" class="post-tag i-tag
+                            i-tag-banana">
+                            #Tools
+                        </a>
+                                
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>现阶段 OneNote 不支持书签功能，这点让我感觉十分不方便。自己琢磨了一下，发现可以利用快捷方式来达到创建 OneNote 书签的功能。</p>
+<p>首先需要获得想要添加书签的 OneNote 页面的地址。以往的教程中，直接右击页面，选择 &quot;Copy link to page&quot; 这一选项的方法已经不适用。这种方法复制的地址以 &quot;https://onedrive.live.com&quot; 开头，会利用网页版的 OneNote 打开页面。考虑到网页版的速度以及生硬的默认用户配置，我觉得这种方法并不实际。正确的方法是，随意选中一段文字，在插入超链接中选中想要添加书签的 OneNote 页面，这时会出现一个以 &quot;onenote:&quot; 开头的链接。复制它，创建快捷方式。OK, 搞定。</p>
+<p>如果你想要建立多个页面的书签，那么不妨考虑新建一个页面作为索引页，上面记下你所有书签的地址。再利用 AutoHotKey 将这个页面作为 OneNote 的起始页。OK, 完美。</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://lonaparte.github.io/post/lesslesshuang-man-gu-shi-greatergreater-ying-ping/">
+                                <h3 class="post-title">
+                                    《荒蛮故事》影评
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1582953553769)">
+        </div>
+        <h1 class="id_card-title">
+            Li&#39;s Blog
+        </h1>
+        <h2 class="id_card-description">
+            Skill makes an artist.
+技术是潇洒的艺术
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lonaparte.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
