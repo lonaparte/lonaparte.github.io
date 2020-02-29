@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lonaparte.github.io</id>
     <title>Li&apos;s Blog</title>
-    <updated>2020-02-29T05:24:13.021Z</updated>
+    <updated>2020-02-29T05:32:26.336Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lonaparte.github.io"/>
     <link rel="self" href="https://lonaparte.github.io/atom.xml"/>
@@ -200,6 +200,39 @@ java.lang.ClassCastException: pdftk.com.lowagie.text.pdf.PdfString cannot be cas
 <p>均报错。</p>
 <p>可能的原因为：Drawboard PDF 和 pdftk 所用的 java 库版本不符，某一个软件用了版本较老的库。</p>
 <p>目前只有一个比较笨的解决方法：用 “打印成 pdf 文件” 功能（如 Windows 平台下自带的 <em>Microsoft Print to PDF</em>）将做过笔记的 pdf 处理一下，再运行 pdftk。测试结果无错。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在写博客之前]]></title>
+        <id>https://lonaparte.github.io/post/zai-xie-bo-ke-zhi-qian/</id>
+        <link href="https://lonaparte.github.io/post/zai-xie-bo-ke-zhi-qian/">
+        </link>
+        <updated>2018-04-02T04:59:05.000Z</updated>
+        <content type="html"><![CDATA[<p>最近阅读别人的技术博客时，因为自己比较新手，很多常识性的东西不了解内涵，导致阅读文章的障碍。于是决定自己开一个博客，用于记录解决过的技术问题。我会尽量解释得很通俗，希望能帮助其他和我一样的新手理解技术问题。“技术是潇洒的艺术”，不知道从哪里看到这个句子，觉得有趣，就一直念念叨叨到现在，顺手就取做了副标题。</p>
+<p>在选取博客名称的时候，我想到了最近重读的一本老书《历史的尘埃》。其字里行间充斥着那种理想主义者对宿命的愤懑与无奈，虽然语言流畅清新，读来却使人愁肠百折。但就其主旨，我比较赞同一位书友所说的</p>
+<blockquote>
+<p>历史的尘埃，这本书的核心，我觉着是这么一句话：<br>
+天地不仁，以万物为刍狗<br>
+那么知道这一点之后又该怎么办呢？作者在故事里告诉我：<br>
+天行健，君子以自强不息<br>
+但如果自强不息最后只是自欺欺人呢？小说的最后，一个答案油然而出：<br>
+地势坤，君子以厚德载物<br>
+这就是我看历史的尘埃时的感受。</p>
+<p><em>作者：dhew</em><br>
+<em>链接：https://www.zhihu.com/question/24060449/answer/45480970</em><br>
+<em>来源：知乎</em></p>
+</blockquote>
+<p>于是突兀却又自然地想到了“行路难”这个诗名。</p>
+<p>我们生活中总是会碰到各种不顺心的事，这时我们嗟叹：</p>
+<blockquote>
+<p>欲渡黄河冰塞川，将登太行雪满山。</p>
+</blockquote>
+<p>但往往事后回想，当时的心情真是不必要的矫情。你看，那往日的歧路，如今都安在？</p>
+<p>于是那一句油然而出：</p>
+<blockquote>
+<p>长风破浪会有时，直挂云帆济沧海。</p>
+</blockquote>
+<p>真正的理想主义者，怕是碰到再多的钉子与陷阱，还是会自强以不息，厚德以载物的吧。无论如何，明天太阳照常升起，又将是新的一天。</p>
 ]]></content>
     </entry>
 </feed>
