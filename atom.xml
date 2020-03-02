@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lonaparte.github.io</id>
     <title>Li&apos;s Blog</title>
-    <updated>2020-02-29T14:00:28.228Z</updated>
+    <updated>2020-03-02T16:20:56.200Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lonaparte.github.io"/>
     <link rel="self" href="https://lonaparte.github.io/atom.xml"/>
@@ -11,6 +11,21 @@
     <logo>https://lonaparte.github.io/images/avatar.png</logo>
     <icon>https://lonaparte.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Li&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[当我们写博客的时候，我们在想些什么？]]></title>
+        <id>https://lonaparte.github.io/post/wei-shi-me-yao-xie-bo-ke/</id>
+        <link href="https://lonaparte.github.io/post/wei-shi-me-yao-xie-bo-ke/">
+        </link>
+        <updated>2020-03-02T15:17:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>本来打算年后尽快返校做实验，结果由于全国性的疫情，只得推迟。因此，时隔近一年，终于再有时间回过头来整理自己的博客。以前写博客总有一种“为了写而写”的感觉，自然也坚持不了多长时间；这次也是一样，开头干劲十足，再而衰三而竭。不过这次，光是迁移博客的后台，选择图床，添加标签还有评论这样的功能就让我忙活了三天三夜。这段时间我老想着说些什么，可是话，总得有个头啊。想来想去，只有四个字：“顺其自然”。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本来打算年后尽快返校做实验，结果由于全国性的疫情，只得推迟。因此，时隔近一年，终于再有时间回过头来整理自己的博客。以前写博客总有一种“为了写而写”的感觉，自然也坚持不了多长时间；这次也是一样，开头干劲十足，再而衰三而竭。不过这次，光是迁移博客的后台，选择图床，添加标签还有评论这样的功能就让我忙活了三天三夜。这段时间我老想着说些什么，可是话，总得有个头啊。想来想去，只有四个字：“顺其自然”。</p>
+<!-- more -->
+<p>写作应该是一件美好的事。它是我们心中真挚的情感的理性表露，具有一切美的特征。每一小段的行文结构，遣词用句，都应符合作者真正想传达给读者的主旨。作者将他想要表达的信息小心翼翼地组合起来，一点一点的延伸出去；若是读者有慧根，或者拥有相似的理念，自然可以准确地，或者自以为准确地复现出作者心中所想；这时他们就仿佛超越了时间与空间，完成了一次伟大的握手：哪怕距离再远，读者也会十分渴望与作者直接面对面，交流相关的看法；而作者如果收到了这样的一份来信，也会欣然应允。我记得《麦田里的守望者》里似乎也提到过相关的观点，认为如果一部作品没有让你产生想要给作者打电话的强烈欲望的话，那么这部作品就是失败的。因此可以说，写作是人类思维的桥梁。</p>
+<p>写技术文档相比一般文章有有所不同。技术文档要求的是严谨准确，它的写作者与阅读者都是经过一定科研技术锻炼的专业人员，拥有这一套他们自己的约定俗成的行文方法。这种方法在他们之间交流不会有任何障碍，但在外行人看来可能就不是那么友好。技术文档通过牺牲个性，换来了普适性。但同时，技术文档为了避免歧义或不必要的误解，往往冗长而繁复。这就要求读者静下心来，找个合适的地方，拿出全部精力来和文章对抗。所以可以类比地说，技术文档是登高所用的登山绳。</p>
+<p>博客文章又是另一类。它中和了前两者的特点：即平易近人，又准确可靠。从获取形式上说，好的博客需要有简介明快的主题，兼顾桌面端与移动端，保证读者在各种情形下的阅读体验。我这几天基本上一劳永逸地解决了这个问题。从内容上说，它既要有价值，又要简明易懂。因此，好的博文也是难得。写博客应该是一个顺其自然的事。当生活中有了感触，或者掌握的技术上有了进步，都可以在科研之余写一写。博客应该是记录，而不是打卡。当你做这件事的时候，你应该能感觉到美。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《周易》的学习方法]]></title>
         <id>https://lonaparte.github.io/post/lesslesszhou-yi-greatergreater-de-xue-xi-fang-fa/</id>
@@ -30,7 +45,10 @@
         <link href="https://lonaparte.github.io/post/shi-pin-jian-ji-yu-kdenlive-jian-ming-zhi-nan/">
         </link>
         <updated>2018-11-22T05:17:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近和我就读同一所学校的高中同学找我来做一个介绍自己大学的视频，趁着这个机会，基本是零基础的我简单地学习了一下视频制作的基本技巧。我打算简单地列举一下我昨天一天做的工作，以备以后的查阅。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>最近和我就读同一所学校的高中同学找我来做一个介绍自己大学的视频，趁着这个机会，基本是零基础的我简单地学习了一下视频制作的基本技巧。我打算简单地列举一下我昨天一天做的工作，以备以后的查阅。</p>
+<!-- more -->
 <p>Kdenlive 是 Linux 下功能最强大的视频剪辑软件，在 Windows 下也有免费开源版本。<a href="https://kdenlive.org/en/download/">下载地址</a></p>
 <p>导入素材后，需要对素材进行处理。常用的 Timeline 处理动作有：</p>
 <ol>
@@ -65,7 +83,10 @@
         <link href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-ke-cheng-bao-gao-mo-ban/">
         </link>
         <updated>2018-11-08T05:16:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>LaTeX 的方便与不便之处不用多说。这是我最近写课程报告的时候用到的模板，主要改编自一个<a href="https://github.com/ZhanPython/Njust-Beamer">南理工的课程报告模板</a>以及我之前在国外学习时使用的学校标准报告模板。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>LaTeX 的方便与不便之处不用多说。这是我最近写课程报告的时候用到的模板，主要改编自一个<a href="https://github.com/ZhanPython/Njust-Beamer">南理工的课程报告模板</a>以及我之前在国外学习时使用的学校标准报告模板。</p>
+<!-- more -->
 <p>本模板的特色有：</p>
 <ol>
 <li>可供修改的地方在文件中均用注释标出。</li>
@@ -84,7 +105,11 @@
         <link href="https://lonaparte.github.io/post/yi-fen-jian-ji-de-xi-an-jiao-da-beamer-yan-shi-wen-gao-mo-ban/">
         </link>
         <updated>2018-10-31T05:14:59.000Z</updated>
-        <content type="html"><![CDATA[<p>Beamer 是基于 LaTeX 的演示文稿模板，它的好处主要有以下几点：</p>
+        <summary type="html"><![CDATA[<p>Beamer 是基于 LaTeX 的演示文稿模板。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Beamer 是基于 LaTeX 的演示文稿模板。</p>
+<!-- more -->
+<p>它的好处主要有以下几点：</p>
 <ol>
 <li>LaTeX 环境，对排版和数学公式的支持相当完善</li>
 <li>自带目录超链接导航功能，当演示文稿页数较多时，在不同章节之间跳转十分便捷（这个真的戳到我的爽点了）</li>
@@ -100,7 +125,10 @@
         <link href="https://lonaparte.github.io/post/lesslesssuan-fa-zhi-mei-greatergreater-shu-ping-yi/">
         </link>
         <updated>2018-10-03T05:13:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>Algorithms to Live By</em> 是最近很流行的一本关于算法的通俗读物。从广义上来说，生活中的决策过程，都可以从算法的角度来复现。而复现的关键，就在于对事件参数的正确估计。</p>
+]]></summary>
         <content type="html"><![CDATA[<p><em>Algorithms to Live By</em> 是最近很流行的一本关于算法的通俗读物。从广义上来说，生活中的决策过程，都可以从算法的角度来复现。而复现的关键，就在于对事件参数的正确估计。</p>
+<!-- more -->
 <p>例如第一章的最优停止问题中，影响“停止收集数据，开始抉择的时间点”的最重要的三个因素是：</p>
 <ol>
 <li>候选对象是否绝对同意</li>
@@ -117,7 +145,10 @@
         <link href="https://lonaparte.github.io/post/onenote-li-yong-kuai-jie-fang-shi-chuang-jian-shu-qian/">
         </link>
         <updated>2018-09-30T05:13:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>现阶段 OneNote 不支持书签功能，这点让我感觉十分不方便。自己琢磨了一下，发现可以利用快捷方式来达到创建 OneNote 书签的功能。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>现阶段 OneNote 不支持书签功能，这点让我感觉十分不方便。自己琢磨了一下，发现可以利用快捷方式来达到创建 OneNote 书签的功能。</p>
+<!-- more -->
 <p>首先需要获得想要添加书签的 OneNote 页面的地址。以往的教程中，直接右击页面，选择 &quot;Copy link to page&quot; 这一选项的方法已经不适用。这种方法复制的地址以 &quot;https://onedrive.live.com&quot; 开头，会利用网页版的 OneNote 打开页面。考虑到网页版的速度以及生硬的默认用户配置，我觉得这种方法并不实际。正确的方法是，随意选中一段文字，在插入超链接中选中想要添加书签的 OneNote 页面，这时会出现一个以 &quot;onenote:&quot; 开头的链接。复制它，创建快捷方式。OK, 搞定。</p>
 <p>如果你想要建立多个页面的书签，那么不妨考虑新建一个页面作为索引页，上面记下你所有书签的地址。再利用 AutoHotKey 将这个页面作为 OneNote 的起始页。OK, 完美。</p>
 ]]></content>
@@ -128,7 +159,10 @@
         <link href="https://lonaparte.github.io/post/lesslesshuang-man-gu-shi-greatergreater-ying-ping/">
         </link>
         <updated>2018-09-18T05:11:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>下方剧透警告！！！</p>
+]]></summary>
         <content type="html"><![CDATA[<p>下方剧透警告！！！</p>
+<!-- more -->
 <p>偶然得知钱图二楼星空放映厅组织放映《荒蛮故事》，便约上好友同去。电影本身很有意思，讲述了六个独立的，以复仇和暴力为主要内容的故事。主办方老师后来提及，“复仇”这个主题可能在我们看来没什么特殊的地方；可是在电影制作地南美，一代又一代的以牙还牙式的血亲复仇给历史染上了浓墨的猩红。于是所有内容都在一瞬间变得不一样了。</p>
 <p>六个故事本身没有太大的联系，但他们内在的暴力性是不同的：基本上是从前往后依次递减。前三个故事都发生在相对封闭的环境中，例如第一个故事里机舱这个无地之所，第二个故事里黑夜孤独的餐馆，第三个故事里的荒野无人公路。在这些法外之地里，暴力更加鲜明更加赤裸。人们可以肆意使用暴力，只为了满足自己心中所谓的复仇的畅快感。这里的“荒蛮”是最真实的荒蛮。而从第四个故事开始，背景逐渐转移到文明世界里，于是工程师因为一时的失控而被解雇，最终也不得不依靠自己的专业知识，才圆满地完成复仇。第五个和第六个故事的节奏缓慢地近乎拖沓。富翁和园丁，律师，检察官为了佣金的数目而相互勾心斗角；婚礼上的男主和女主的心理以及行为多次反转，最终双方达成了妥协。这后三个故事，更多地展现了从荒蛮过渡到文明这一时期。学会妥协，而不是兴之所至的报复，才能使个体在社会中生存得更久。导演在第六个故事中用双方的克制结束了整部影片，我想这才是电影的主旨。</p>
 <p>影片中还有很多细节值得细细品味。时间原因，留待以后再更。</p>
@@ -140,7 +174,10 @@
         <link href="https://lonaparte.github.io/post/simplis-ruan-jian-shi-yong-ru-men/">
         </link>
         <updated>2018-09-15T05:07:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>SIMetrix/SIMPLIS 软件（以下简称 Simplis）是 Simplis 公司与 Simetrix 公司联合开发的电力电子电路仿真软件。与 Saber, PSpice, MATLAB 等软件相比，Simplis 软件使用了独特的算法，可以快速得出系统稳态扫频结果，因此在电力电子变换器的仿真分析和验证的过程中被广泛运用。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>SIMetrix/SIMPLIS 软件（以下简称 Simplis）是 Simplis 公司与 Simetrix 公司联合开发的电力电子电路仿真软件。与 Saber, PSpice, MATLAB 等软件相比，Simplis 软件使用了独特的算法，可以快速得出系统稳态扫频结果，因此在电力电子变换器的仿真分析和验证的过程中被广泛运用。</p>
+<!-- more -->
 <p>Simplis 软件有着齐全的<a href="https://www.simplistechnologies.com/support/documentation">说明文档</a>和简单的<a href="www.simplis.com/support/documentation/learning-simplis">学习教程</a>，可以快速入门。如何导入元件，搜索元件，设置仿真参数，由于本人实力和精力都有限，在此不一一说明。仅列举我在仿真 Buck 电路过程中的一些注意事项：</p>
 <ol>
 <li>POP Threshold 位于 0 到输入电压之间</li>
@@ -160,7 +197,10 @@
         <link href="https://lonaparte.github.io/post/latex-xie-zuo-zhong-de-tu-pian-wen-ti/">
         </link>
         <updated>2018-04-03T05:05:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>我们写作科技论文时，碰到另一篇论文中的图片，如果直接截图，显示效果往往很差。这时有几个工具可以帮助我们提取图片：</p>
+]]></summary>
         <content type="html"><![CDATA[<p>我们写作科技论文时，碰到另一篇论文中的图片，如果直接截图，显示效果往往很差。这时有几个工具可以帮助我们提取图片：</p>
+<!-- more -->
 <ol>
 <li>
 <p>pdfimages：<br>
@@ -187,7 +227,10 @@
         <link href="https://lonaparte.github.io/post/drawboard-pdf-he-pdftk-de-chong-tu-wen-ti/">
         </link>
         <updated>2018-04-03T05:03:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近发现，Surface 必备应用 Drawboard PDF 和 pdf 转换工具 pdftk 不太兼容，具体表现为：将用 Drawboard PDF 做过笔记的 pdf 用 pdftk 进行转换时会报错，错误信息如下：</p>
+]]></summary>
         <content type="html"><![CDATA[<p>最近发现，Surface 必备应用 Drawboard PDF 和 pdf 转换工具 pdftk 不太兼容，具体表现为：将用 Drawboard PDF 做过笔记的 pdf 用 pdftk 进行转换时会报错，错误信息如下：</p>
+<!-- more -->
 <blockquote>
 <p>Unhandled Java Exception in create_output():<br>
 java.lang.ClassCastException: pdftk.com.lowagie.text.pdf.PdfString cannot be cast to pdftk.com.lowagie.text.pdf.PdfName</p>
@@ -208,7 +251,10 @@ java.lang.ClassCastException: pdftk.com.lowagie.text.pdf.PdfString cannot be cas
         <link href="https://lonaparte.github.io/post/zai-xie-bo-ke-zhi-qian/">
         </link>
         <updated>2018-04-02T04:59:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近阅读别人的技术博客时，因为自己比较新手，很多常识性的东西不了解内涵，导致阅读文章的障碍。于是决定自己开一个博客，用于记录解决过的技术问题。我会尽量解释得很通俗，希望能帮助其他和我一样的新手理解技术问题。“技术是潇洒的艺术”，不知道从哪里看到这个句子，觉得有趣，就一直念念叨叨到现在，顺手就取做了副标题。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>最近阅读别人的技术博客时，因为自己比较新手，很多常识性的东西不了解内涵，导致阅读文章的障碍。于是决定自己开一个博客，用于记录解决过的技术问题。我会尽量解释得很通俗，希望能帮助其他和我一样的新手理解技术问题。“技术是潇洒的艺术”，不知道从哪里看到这个句子，觉得有趣，就一直念念叨叨到现在，顺手就取做了副标题。</p>
+<!-- more -->
 <p>在选取博客名称的时候，我想到了最近重读的一本老书《历史的尘埃》。其字里行间充斥着那种理想主义者对宿命的愤懑与无奈，虽然语言流畅清新，读来却使人愁肠百折。但就其主旨，我比较赞同一位书友所说的</p>
 <blockquote>
 <p>历史的尘埃，这本书的核心，我觉着是这么一句话：<br>
