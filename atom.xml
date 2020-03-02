@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lonaparte.github.io</id>
     <title>Li&apos;s Blog</title>
-    <updated>2020-03-02T16:20:56.200Z</updated>
+    <updated>2020-03-02T16:32:48.707Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lonaparte.github.io"/>
     <link rel="self" href="https://lonaparte.github.io/atom.xml"/>
@@ -11,6 +11,21 @@
     <logo>https://lonaparte.github.io/images/avatar.png</logo>
     <icon>https://lonaparte.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Li&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[颜色的变迁]]></title>
+        <id>https://lonaparte.github.io/post/yan-se-de-bian-qian/</id>
+        <link href="https://lonaparte.github.io/post/yan-se-de-bian-qian/">
+        </link>
+        <updated>2020-03-02T16:21:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>在论坛上发现了一张有趣的图（来源见角标），贴出来分享：<br>
+<img src="https://blog-img-storage.oss-us-east-1.aliyuncs.com/mistoffelees-img/20200302231346.jpg" alt="The Development of Dyeing" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在论坛上发现了一张有趣的图（来源见角标），贴出来分享：<br>
+<img src="https://blog-img-storage.oss-us-east-1.aliyuncs.com/mistoffelees-img/20200302231346.jpg" alt="The Development of Dyeing" loading="lazy"></p>
+<!-- more -->
+<p>考虑到前工业时期，人们只能通过特殊的材料或矿物来获得颜色，不同的颜色甚至被赋予了阶级上的差异。比如紫色是罗马帝国皇帝的颜色，代表着高贵，而不是基佬（精罗狂怒）。因此，研究古代历史的时候，艺术品的颜色可能包含着额外的信息。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[当我们写博客的时候，我们在想些什么？]]></title>
         <id>https://lonaparte.github.io/post/wei-shi-me-yao-xie-bo-ke/</id>
