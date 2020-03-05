@@ -7,7 +7,7 @@
 <title>
     About | Li&#39;s Blog
 </title>
-<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1583222462906">
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1583376688577">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -20,6 +20,13 @@
 
 
         
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
+
+                    
+                            
 </head>
 
 <body>
@@ -28,7 +35,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://lonaparte.github.io">
-                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1583222462906" alt="">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1583376688577" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -115,13 +122,14 @@
                         </div>
                         
                                 <div class="post-content">
-                                    <blockquote>
-<p>Welcome to my website！🤝</p>
-</blockquote>
+                                    <!-- > Welcome to my website！🤝 -->
 <h2 id="about-the-website">🏠 About the Website</h2>
+<p>Welcome to my website！🤝 It is a place to record of my study and life, and also free space to get to know you lovely people !</p>
 <h2 id="about-the-author">👨‍💻 About the Author</h2>
 <h2 id="my-interests">⛹ My Interests</h2>
 <h2 id="contact-me">📬 Contact Me</h2>
+<p>Email: <a href="chengli1909@163.com">chengli1909@163.com</a><br>
+GitHub: <a href="https://github.com/lonaparte">https://github.com/lonaparte</a></p>
 
                                 </div>
                     </article>
@@ -205,6 +213,26 @@
         });
     </script>
     
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '8cd9b060d6989796f0f6',
+            clientSecret: 'dc32e5a5cc0512b8efbb19454d9c7a0e4b905948',
+            repo: 'lonaparte.github.io',
+            owner: 'lonaparte',
+            admin: ['lonaparte'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
+
+                    
+                                
 </body>
 
 </html>

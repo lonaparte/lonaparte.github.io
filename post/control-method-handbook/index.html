@@ -1,0 +1,443 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Control Method Handbook | Li&#39;s Blog
+</title>
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1583376688577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lonaparte.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lonaparte.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
+
+                    
+                            
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lonaparte.github.io">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1583376688577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Li&#39;s Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    Main
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    Archives
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://lonaparte.github.io/post/all-slides" class="menu">
+                                    Slides
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    Tags
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    About
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            Control Method Handbook
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">Jun 23rd 2019 +08:00</time>
+                            
+                                <a href="https://lonaparte.github.io/tag/NFKeIkr2J/" class="post-tag i-tag
+                            i-tag-info">
+                            #Control
+                        </a>
+                                
+                                <a href="https://lonaparte.github.io/tag/pJAiH4LyQ/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #Handbook
+                        </a>
+                                
+                                <a href="https://lonaparte.github.io/tag/6jfGEit9bO/" class="post-tag i-tag
+                            i-tag-success">
+                            #Power Electronics
+                        </a>
+                                
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>A handbook for quickly querying different control methods. It is useful for the review of <em>High Frequency</em> course of Prof. LIU.</p>
+<!-- more -->
+<h1 id="basic-concept">Basic Concept</h1>
+<h4 id="main-application-domains-of-pe">Main application domains of PE</h4>
+<ul>
+<li>Industrial</li>
+<li>Residential / commercial</li>
+<li>Transportation</li>
+<li>Scientific research</li>
+<li>Military</li>
+<li>...</li>
+</ul>
+<h4 id="main-applications-of-pe">Main applications of PE</h4>
+<ul>
+<li>Power supply</li>
+<li>Motor devices</li>
+<li>Utilities</li>
+</ul>
+<h4 id="issues-the-engineers-should-consider">Issues the engineers should consider</h4>
+<ul>
+<li>Efficiency</li>
+<li>Reliability</li>
+<li>Perturbation suppression</li>
+</ul>
+<h4 id="why-do-we-need-models">Why do we need models?</h4>
+<ul>
+<li>Sometimes objects are not available or too expensive</li>
+<li>Models resemble the original objects in some aspects</li>
+</ul>
+<h4 id="two-categories-of-models">Two categories of models</h4>
+<ul>
+<li>Physical models</li>
+<li>Mathematical models</li>
+</ul>
+<h4 id="multi-level-modeling-of-power-electronics-circuits">Multi-level modeling of power electronics circuits</h4>
+<ul>
+<li>Device behavior level</li>
+<li>Circuit operation level</li>
+<li>System control level</li>
+</ul>
+<h4 id="the-objectives-of-control">The objectives of control</h4>
+<ul>
+<li>Let the circuit performs as we want, in other words, improve the performance</li>
+<li>Overcome the disturbance</li>
+</ul>
+<h4 id="the-difference-between-two-main-kinds-of-control-the-feedback-control-and-the-feedforward-control">The difference between two main kinds of control: the Feedback control and the Feedforward control</h4>
+<ul>
+<li>Whether there exists a closed control loop</li>
+<li>Whether the mesured signal follows the given reference directly</li>
+</ul>
+<h1 id="feedforward-control">Feedforward Control</h1>
+<h4 id="advantages-compared-with-feedback">Advantages (Compared with Feedback)</h4>
+<ul>
+<li>Stability - No stability issue. Feedforward can prevent disturbances amplification.</li>
+<li>Accuracy - No static errors. The output of feedforward should be predictable, so it is precise.</li>
+<li>Dynamic response - Feedforward is proactive, which means it can react before error actually occurs. Once an upstream disturbance is identified Feed Forward immediately seizes the initiative and prescribes an appropriate change. Thus, it is faster.</li>
+</ul>
+<h4 id="drawbacks-hard-to-overcome-feedforward">Drawbacks hard to overcome (Feedforward)</h4>
+<ul>
+<li>Unable to accurately reject the perturbations for the switching errors exist</li>
+<li>Unable to accurately reject the perturbations which is not considered in the design. This is common because the practical condition contains many sources of perturbations. The more source of perturbations we consider, the more complex the controller will be.</li>
+</ul>
+<h1 id="feedback-control">Feedback Control</h1>
+<h4 id="advantages-compared-with-feedforward">Advantages (Compared with Feedforward)</h4>
+<ul>
+<li>Perturbation suppression - it has a strong ability of automatic correction. It can handle the potential errors caused by internal and external disturbance. It gets a strong anti-interference ability.</li>
+</ul>
+<h4 id="why-do-we-need-compensator-drawbacks-to-overcome">Why do we need compensator (Drawbacks to overcome)</h4>
+<p>The potential disturbance may make the system fail to work, because the feedback control inherently exists the stability issue. Also, the static error and dynamic response may not be excellent.</p>
+<h4 id="the-objectives-of-a-compensator-design-in-feedback">The objectives of a compensator design (in feedback)</h4>
+<ul>
+<li>Stability</li>
+<li>Accuracy</li>
+<li>Dynamic response</li>
+</ul>
+<h2 id="control-of-the-voltage">Control of the Voltage</h2>
+<h3 id="control-of-the-output-voltage">Control of the Output Voltage</h3>
+<p>Control of the voltage mostly refers to control of the output voltage.</p>
+<h4 id="voltage-mode-control"><strong>Voltage Mode Control</strong></h4>
+<ul>
+<li>Simple, easy to realize</li>
+</ul>
+<h4 id="drawbacks-hard-to-overcome-vm">Drawbacks Hard to Overcome (VM)</h4>
+<ul>
+<li>Compensator may hard to design, sometimes a good design is impossible</li>
+<li>Dynamic response - A large number of switching cycles is required before the steady-state is regained. What's more, in non-linear converters, the bandwidth of the loop has to be set very low to avoid the instability.</li>
+</ul>
+<h4 id="one-cycle-control"><strong>One Cycle Control</strong></h4>
+<ul>
+<li>Significantly improve the dynamic response performance of VM - Automatically correct the switching errors within one switching cycle</li>
+<li>Perturbation suppression - Reject the perturbations in one switching cycle</li>
+</ul>
+<h4 id="drawbacks-hard-to-overcome-one-cycle">Drawbacks Hard to Overcome (One-Cycle)</h4>
+<h2 id="control-of-the-current">Control of the Current</h2>
+<h3 id="benefits-of-current-control">Benefits of current control</h3>
+<ul>
+<li>Current limiting (peak current protection without soft-start mechanism)</li>
+<li>Current sharing</li>
+</ul>
+<h3 id="control-of-the-inductor-current">Control of the Inductor Current</h3>
+<h4 id="peak-current-mode-control"><strong>Peak Current Mode Control</strong></h4>
+<ul>
+<li>Benefits of current control</li>
+<li>Easier compensator design (compared with VM)</li>
+<li>Good dynamic performance - in non-linear converters, the bandwidth can be set very high</li>
+</ul>
+<h4 id="limitations-of-pcc">Limitations of PCC</h4>
+<ul>
+<li>Cannot accurately control average inductor current</li>
+<li>Low DC gain of the current loop</li>
+<li>Loop gain sensitive to line variation</li>
+<li>Switching noise problem</li>
+</ul>
+<h4 id="average-current-mode-control"><strong>Average Current Mode Control</strong></h4>
+<h3 id="control-of-the-input-current">Control of the Input Current</h3>
+<h4 id="suitable-application-range">Suitable Application Range</h4>
+<p>Control of the input current usually means the control of the input switching current of buck or flyback converters. In my opinion, it also includes the buck-boost converters. Input current of these converters are pulsating, so the filtering is usually useless. If the input current is the inductor current, i.e. the boost converter, we can refer to the section <em>Control of the Inductor Current</em></p>
+<h4 id="advantages">Advantages</h4>
+<ul>
+<li>Good input current sharing</li>
+<li>Switching noise immunity</li>
+</ul>
+<h4 id="drawbacks-to-overcome">Drawbacks to overcome</h4>
+<p>The application of tradition Average Current Mode Control in the input current control has these drawbacks listed below:</p>
+<ul>
+<li>Input current is too pulsating to be filtered</li>
+<li>Too much filtering will render the current loop useless</li>
+<li>Too much filtering will result in loop instability</li>
+</ul>
+<p>The application of tradition Peak Current Mode Control in the input current control has these drawbacks listed below:</p>
+<ul>
+<li>Cannot control average input current</li>
+<li>Switching noise problem</li>
+</ul>
+<h4 id="charge-control"><strong>Charge Control</strong></h4>
+<h4 id="drawbacks-hard-to-overcome">Drawbacks hard to overcome</h4>
+<ul>
+<li>Subharmonic oscillation</li>
+</ul>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://lonaparte.github.io/post/lesslesszhou-yi-greatergreater-de-xue-xi-fang-fa/">
+                                <h3 class="post-title">
+                                    《周易》的学习方法
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#basic-concept">Basic Concept</a><br>
+*<br>
+*<br>
+* <a href="#main-application-domains-of-pe">Main application domains of PE</a><br>
+* <a href="#main-applications-of-pe">Main applications of PE</a><br>
+* <a href="#issues-the-engineers-should-consider">Issues the engineers should consider</a><br>
+* <a href="#why-do-we-need-models">Why do we need models?</a><br>
+* <a href="#two-categories-of-models">Two categories of models</a><br>
+* <a href="#multi-level-modeling-of-power-electronics-circuits">Multi-level modeling of power electronics circuits</a><br>
+* <a href="#the-objectives-of-control">The objectives of control</a><br>
+* <a href="#the-difference-between-two-main-kinds-of-control-the-feedback-control-and-the-feedforward-control">The difference between two main kinds of control: the Feedback control and the Feedforward control</a></li>
+<li><a href="#feedforward-control">Feedforward Control</a><br>
+*<br>
+*<br>
+* <a href="#advantages-compared-with-feedback">Advantages (Compared with Feedback)</a><br>
+* <a href="#drawbacks-hard-to-overcome-feedforward">Drawbacks hard to overcome (Feedforward)</a></li>
+<li><a href="#feedback-control">Feedback Control</a><br>
+*<br>
+*<br>
+* <a href="#advantages-compared-with-feedforward">Advantages (Compared with Feedforward)</a><br>
+* <a href="#why-do-we-need-compensator-drawbacks-to-overcome">Why do we need compensator (Drawbacks to overcome)</a><br>
+* <a href="#the-objectives-of-a-compensator-design-in-feedback">The objectives of a compensator design (in feedback)</a>
+<ul>
+<li><a href="#control-of-the-voltage">Control of the Voltage</a>
+<ul>
+<li><a href="#control-of-the-output-voltage">Control of the Output Voltage</a>
+<ul>
+<li><a href="#voltage-mode-control"><strong>Voltage Mode Control</strong></a></li>
+<li><a href="#drawbacks-hard-to-overcome-vm">Drawbacks Hard to Overcome (VM)</a></li>
+<li><a href="#one-cycle-control"><strong>One Cycle Control</strong></a></li>
+<li><a href="#drawbacks-hard-to-overcome-one-cycle">Drawbacks Hard to Overcome (One-Cycle)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#control-of-the-current">Control of the Current</a>
+<ul>
+<li><a href="#benefits-of-current-control">Benefits of current control</a></li>
+<li><a href="#control-of-the-inductor-current">Control of the Inductor Current</a>
+<ul>
+<li><a href="#peak-current-mode-control"><strong>Peak Current Mode Control</strong></a></li>
+<li><a href="#limitations-of-pcc">Limitations of PCC</a></li>
+<li><a href="#average-current-mode-control"><strong>Average Current Mode Control</strong></a></li>
+</ul>
+</li>
+<li><a href="#control-of-the-input-current">Control of the Input Current</a>
+<ul>
+<li><a href="#suitable-application-range">Suitable Application Range</a></li>
+<li><a href="#advantages">Advantages</a></li>
+<li><a href="#drawbacks-to-overcome">Drawbacks to overcome</a></li>
+<li><a href="#charge-control"><strong>Charge Control</strong></a></li>
+<li><a href="#drawbacks-hard-to-overcome">Drawbacks hard to overcome</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lonaparte.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '8cd9b060d6989796f0f6',
+            clientSecret: 'dc32e5a5cc0512b8efbb19454d9c7a0e4b905948',
+            repo: 'lonaparte.github.io',
+            owner: 'lonaparte',
+            admin: ['lonaparte'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
+
+                    
+                                
+</body>
+
+</html>

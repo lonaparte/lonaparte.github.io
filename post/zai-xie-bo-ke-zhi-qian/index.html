@@ -7,7 +7,7 @@
 <title>
     在写博客之前 | Li&#39;s Blog
 </title>
-<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1583222462906">
+<link rel="shortcut icon" href="https://lonaparte.github.io/favicon.ico?v=1583376688577">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -20,6 +20,13 @@
 
 
         
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
+
+                    
+                            
 </head>
 
 <body>
@@ -28,7 +35,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://lonaparte.github.io">
-                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1583222462906" alt="">
+                <img class="avatar" src="https://lonaparte.github.io/images/avatar.png?v=1583376688577" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -113,7 +120,7 @@
                             <time class="post-time">Apr 2nd 2018 +08:00</time>
                             
                                 <a href="https://lonaparte.github.io/tag/b7nMaM5ki/" class="post-tag i-tag
-                            i-tag-">
+                            i-tag-other_2">
                             #Daily Talks
                         </a>
                                 
@@ -162,7 +169,7 @@
                                 <!-- id-card -->
                                 
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1583222462906)">
+        <div class="id_card-avatar" style="background-image: url(https://lonaparte.github.io/images/avatar.png?v=1583376688577)">
         </div>
         <h1 class="id_card-title">
             Li&#39;s Blog
@@ -216,6 +223,26 @@
         });
     </script>
     
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '8cd9b060d6989796f0f6',
+            clientSecret: 'dc32e5a5cc0512b8efbb19454d9c7a0e4b905948',
+            repo: 'lonaparte.github.io',
+            owner: 'lonaparte',
+            admin: ['lonaparte'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
+
+                    
+                                
 </body>
 
 </html>
